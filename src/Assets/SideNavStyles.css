@@ -1,0 +1,46 @@
+.sideNavContainer {
+    position: absolute;
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    height: 30vh;
+}
+
+.sideNavIconContainer {
+    margin-bottom: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.sideNavIcon {
+    font-size: 25px;
+    filter: 
+    brightness(0)
+    saturate(100%)
+    invert(100%);
+}
+
+.sideNavIconTwitter {
+    font-size: 21px;
+}
+
+.sideNavIconContainer:hover {
+    filter: 
+        invert(58%) 
+        sepia(100%) 
+        saturate(1565%) 
+        hue-rotate(146deg) 
+        brightness(99%) 
+        contrast(99%);
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+
+.sideNavLine {
+    margin-top: 10px;
+    width: 1px;
+    height: 8vh;
+    background-color: white;
+}

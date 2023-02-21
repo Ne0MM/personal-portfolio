@@ -1,0 +1,75 @@
+.presentationContainer {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.pictureContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.selfPicture {
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: rgba(1, 200, 238, 0.1) 0px 8px 24px, rgba(1, 200, 238, 0.1) 0px 12px 28px;
+}
+
+.selfPicJpg {
+    width: 100%;
+}
+
+.presentationName {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.presentationDegree {
+    text-align: center;
+    font-size: large;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.pictureSideLines {
+    width: 22.5%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sideLinesLine {
+    width: 80%;
+    height: 2px;
+    background-color: #01C8EE;
+    transform: rotate(30deg) translateY(-50px);
+    margin-right: 30px;
+    margin-bottom: 15px;
+
+    animation-name: lineAnim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.pictureSideLinesTwo {
+    transform: rotateZ(180deg) rotateX(180deg);
+}
+
+@keyframes lineAnim {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 80%;
+    }
+}
