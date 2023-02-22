@@ -1,0 +1,39 @@
+.skillsContainer {
+    width: 100%;
+    padding-top: 200px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1100px;
+}
+
+.skillsHeader {
+    font-size: xx-large;
+    color: #01C8EE;
+    text-align: center;
+}
+
+.skillsIconContainer {
+    margin-top: 50px;
+}
+
+.skillIcon {
+    width: 75px;
+    margin: 0px 20px;
+    transition: 0.2s ease-in-out;
+    filter: 
+    brightness(0)
+    saturate(100%)
+    invert(100%);
+}
+
+.skillIcon:hover {
+    filter: 
+    invert(58%) 
+    sepia(100%) 
+    saturate(1565%) 
+    hue-rotate(146deg) 
+    brightness(99%) 
+    contrast(99%);
+    transform: translateY(-10px);
+}

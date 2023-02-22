@@ -13,6 +13,19 @@ function Header() {
                 <div>r</div>
                 <div>e</div>
             </a>
+            <a href='#Skills'>
+                <div className='light-blue'>T</div>
+                <div>e</div>
+                <div>c</div>
+                <div>n</div>
+                <div>o</div>
+                <div>l</div>
+                <div>o</div>
+                <div>g</div>
+                <div>i</div>
+                <div>a</div>
+                <div>s</div>
+            </a>
             <a href='#Work'>
                 <div className='light-blue'>P</div>
                 <div>r</div>
@@ -22,15 +35,6 @@ function Header() {
                 <div>t</div>
                 <div>o</div>
                 <div>s</div>
-            </a>
-            <a href='#Contact'>
-                <div className='light-blue'>C</div>
-                <div>o</div>
-                <div>n</div>
-                <div>t</div>
-                <div>a</div>
-                <div>t</div>
-                <div>o</div>
             </a>
             <a href='#Resume'>
                 <div className='light-blue'>C</div>
