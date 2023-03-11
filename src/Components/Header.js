@@ -36,7 +36,7 @@ function Header() {
                 <div>o</div>
                 <div>s</div>
             </a>
-            <a href='#Resume'>
+            <a href='https://drive.google.com/file/d/1DnZg66SSVmemVGwcNIT6SDG0-5-U_5Qy/view?usp=share_link'>
                 <div className='light-blue'>C</div>
                 <div>u</div>
                 <div>r</div>

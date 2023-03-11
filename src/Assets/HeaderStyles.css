@@ -11,6 +11,7 @@ header {
     width: 140px;
     display: flex;
     justify-content: center;
+    opacity: 0;
 }
 
 .linksContainer {
@@ -100,4 +101,10 @@ header {
     transition-delay: 1.1s;
     transform: translateY(-2px);
     color: #01C8EE;
+}
+
+@media (max-width: 700px) {
+    .linksContainer{
+        display: none;
+    }
 }

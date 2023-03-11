@@ -48,3 +48,15 @@
 .sideNavIconContainer a {
     text-decoration: none;
 }
+
+@media (max-width : 1250px) {
+    .sideNavContainer{
+        width: 40px;
+    }
+}
+
+@media (max-width : 1150px) {
+    .sideNavContainer{
+        display: none;
+    }
+}

@@ -15,11 +15,14 @@
 
 .skillsIconContainer {
     margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
 }
 
 .skillIcon {
     width: 75px;
-    margin: 0px 20px;
+    margin: 10px 20px;
     transition: 0.2s ease-in-out;
     filter: 
     brightness(0)

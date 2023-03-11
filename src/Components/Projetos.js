@@ -26,7 +26,7 @@ function Projetos() {
                 <div className='projectImageContainer'>
                     <div className='projectText'>
                         <h4 className='projectTextHeader light-blue'>To do list</h4>
-                        <p className='projectText'>Com funcionalidades como adicionar, editar e remover atividades (as atividades e seus status ficam salvos em local storage)</p>
+                        <p className='projectText'>Adicionar, editar e remover atividades</p>
                         <a href='https://pablo-s-to-do-list.netlify.app/' className='light-blue'>Link</a>
                     </div>
                     <img src={toDoListImage} className='projectImage'alt='To-do-list'/>
