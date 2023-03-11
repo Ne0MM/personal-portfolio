@@ -15,7 +15,7 @@ function SideNav() {
         </div>
 
         <div className='sideNavIconContainer'>    
-            <a href='https://www.linkedin.com/in/pablo-tavares-7b8287267/'>
+            <a href='https://www.linkedin.com/in/pablo-tavares-dev/'>
             <i 
                 className='devicon-linkedin-plain sideNavIcon'
             />
